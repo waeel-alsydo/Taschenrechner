@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Taschenrechner</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <input readonly id="view" class="view" />
+      </div>
+      <div class="container-wrap">
+        <input type="button" value="x2" class="col-1" onclick="add('**');" />
+        <input type="button" value="Del" class="col-1" onclick="back();" />
+        <input type="button" value="C" class="col-1" onclick="clean();" />
+        <input type="button" value="÷" class="col-1" onclick="add('/');" />
+        <input type="button" value="7" class="col" onclick="add(7);" />
+        <input type="button" value="8" class="col" onclick="add(8);" />
+        <input type="button" value="9" class="col" onclick="add(9);" />
+        <input type="button" value="×" class="col-1" onclick="add('*');" />
+        <input type="button" value="4" class="col" onclick="add(4);" />
+        <input type="button" value="5" class="col" onclick="add(5);" />
+        <input type="button" value="6" class="col" onclick="add(6);" />
+        <input type="button" value="-" class="col-1" onclick="add('-');" />
+        <input type="button" value="1" class="col" onclick="add(1);" />
+        <input type="button" value="2" class="col" onclick="add(2);" />
+        <input type="button" value="3" class="col" onclick="add(3);" />
+        <input type="button" value="+" class="col-1" onclick="add('+');" />
+        <input type="button" value="." class="col" onclick="add('.');" />
+        <input type="button" value="0" class="col" onclick="add(0);" />
+        <input type="button" value="=" class="col-3" onclick="egual();" />
+      </div>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
